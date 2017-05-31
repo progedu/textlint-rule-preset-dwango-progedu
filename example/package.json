@@ -1,0 +1,14 @@
+{
+  "name": "example",
+  "private": true,
+  "scripts": {
+    "pretest": "npm rm textlint-rule-preset-japanese && npm i --production",
+    "test": "textlint README.md"
+  },
+  "author": "gaura",
+  "license": "ISC",
+  "dependencies": {
+    "textlint": "^5.2.0",
+    "textlint-rule-preset-dwango-progedu": "file:.."
+  }
+}
