@@ -1,0 +1,25 @@
+{
+  "name": "textlint-rule-preset-dwango-progedu",
+  "version": "1.0.0",
+  "description": "ドワンゴN予備校向けプログラミング教育テキスト群において用いているtextlintの標準設定",
+  "main": "lib/textlint-rule-preset-dwango-progedu.js",
+  "scripts": {
+    "test": "cd example && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/progedu/textlint-rule-preset-dwango-progedu.git"
+  },
+  "keywords": [
+    "preset",
+    "rule",
+    "textlint",
+    "textlintrule"
+  ],
+  "author": "gaura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/progedu/textlint-rule-preset-dwango-progedu/issues"
+  },
+  "homepage": "https://github.com/progedu/textlint-rule-preset-dwango-progedu#readme"
+}
