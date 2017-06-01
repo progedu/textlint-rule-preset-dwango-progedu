@@ -100,8 +100,9 @@ rules:
 #  - expected: インテント
 #    pattern: /\bIntent\b/
 
-  - expected: ウィジェット
-    pattern: /\bWidget\b|\bwidget\b/
+# コードの名前空間にbWidgetがよく登場するため
+#  - expected: ウィジェット
+#    pattern: /\bWidget\b|\bwidget\b/
 
   - expected: ウィルス
     pattern: ウイルス
