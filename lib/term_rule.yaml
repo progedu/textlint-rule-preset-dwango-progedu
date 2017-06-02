@@ -1710,3 +1710,7 @@ rules:
 
   - expected: for/of
     pattern: /for\.\.\.of/
+
+  - expected: " "
+    pattern: /[\b]/
+    prh: バックスペース記号が入力されてしまっています。
