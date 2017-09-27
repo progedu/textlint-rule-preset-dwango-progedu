@@ -130,7 +130,7 @@ rules:
     pattern: エミュレーター
 
   - expected: エンティティ
-    pattern: /エンティティー/
+    pattern: エンティティー
 
   - expected: エントリ
     pattern: エントリー
