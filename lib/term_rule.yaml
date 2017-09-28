@@ -963,8 +963,9 @@ rules:
   - expected: MongoDB
     pattern: /\bMongo DB\b/
 
-  - expected: MySQL
-    pattern: /\bMySQL\b/i
+# mysqlコマンドを使うので
+#  - expected: MySQL
+#    pattern: /\bMySQL\b/i
 
   # ★Nagios1★
   - expected: Nagios $1
