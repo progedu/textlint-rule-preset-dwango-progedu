@@ -352,8 +352,9 @@ rules:
   - expected: パターン
     pattern: パタン
 
-  - expected: ハッシュ
-    pattern: /\bhash\b|\bHash\b/
+# ハッシュという変数を扱うことがあるので除去
+#  - expected: ハッシュ
+#    pattern: /\bhash\b|\bHash\b/
 
   - expected: バラ
     pattern: 薔薇
