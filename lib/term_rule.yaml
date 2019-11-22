@@ -385,7 +385,7 @@ rules:
 
   # ★Webブラウザ★WEBブラウザー★
   - expected: ブラウザ
-    pattern: /Webブラウザー?|WEBブラウザー?/
+    pattern: /Webブラウザー?|WEBブラウザー?|ウェブブラウザー?/
 
   - expected: ブラウザ
     pattern: ブラウザー
