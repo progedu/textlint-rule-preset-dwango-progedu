@@ -10,7 +10,7 @@ rules:
     pattern: /ポインタ/
 
   - expected: 無名関数
-    pattern: /匿名関数/
+    pattern: /匿名関数|ラムダ式/
 
   - expected: 型パラメータ
     pattern: /型パラメーター/
@@ -1716,3 +1716,39 @@ rules:
   - expected: " "
     pattern: /[\b]/
     prh: バックスペース記号が入力されてしまっています。
+
+  - expected: シンタックス
+    pattern: /シンタクス/
+
+  - expected: パッケージマネージャ
+    pattern: パッケージマネージャー
+
+  - expected: 入れ子
+    pattern: /ネスティング|ネスト/
+
+  - expected: VS Code
+    pattern: VSCode
+
+  - expected: 1 つ
+    pattern: /ひとつ|1つ|１つ/
+
+  - expected: 2 つ
+    pattern: /ふたつ|2つ|２つ/
+
+  - expected: Slack
+    pattern: slack
+
+  - expected: JavaScript
+    pattern: Javascript
+
+  - expected: TypeScript
+    pattern: Typescript
+
+  - expected: CoffeeScript
+    pattern: Coffeescript
+
+  - expected: スマホ
+    pattern: スマフォ
+
+  - expected: Apple Silicon
+    pattern: Apple Silicon (M1)
