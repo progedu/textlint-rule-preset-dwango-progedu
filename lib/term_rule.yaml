@@ -821,7 +821,7 @@ rules:
     pattern: /\biOS SDK\b/i
 
   - expected: ISO
-    pattern: ISO-
+    pattern: /ISO-/
 
   # ★ISO9★
   - expected: ISO $1
@@ -1289,11 +1289,11 @@ rules:
     pattern: /\bXML Schema\b/i
 
   # ☆yahoo.com☆
-  - expected: "Yahoo!$1"
-    pattern: /YAHOO\!([^!.])|\bYahoo\b([^!.])|\bYAHOO\b([^!.])|ヤフー([^!.])/
-
-  - expected: "Yahoo!ウィジェット"
-    pattern: /\bYahooWidget\b|Yahoo\!Widget|Yahoo\! Widget|\bYahooGadget\b|Yahoo\!Gadget|Yahoo\! Gadget/
+#  - expected: "Yahoo!$1"
+#    pattern: /YAHOO\!([^!.])|\bYahoo\b([^!.])|\bYAHOO\b([^!.])|ヤフー([^!.])/
+#
+#  - expected: "Yahoo!ウィジェット"
+#    pattern: /\bYahooWidget\b|Yahoo\!Widget|Yahoo\! Widget|\bYahooGadget\b|Yahoo\!Gadget|Yahoo\! Gadget/
 
 #  - expected: YouTube
 #    pattern: /\bYoutube\b|\byoutube\b/
