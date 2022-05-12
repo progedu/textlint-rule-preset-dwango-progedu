@@ -24,6 +24,6 @@
   "homepage": "https://github.com/progedu/textlint-rule-preset-dwango-progedu#readme",
   "dependencies": {
     "textlint-rule-max-ten": "^2.0.1",
-    "textlint-rule-prh": "^2.3.0"
+    "textlint-rule-prh": "^5.3.0"
   }
 }
