@@ -203,8 +203,8 @@ rules:
     pattern: コンテナー
 
   # WEB+DBでは、コンピュータが正しかったが、古い記法ということで音引きいれる方を採用
-  - expected: コンピューター
-    pattern: コンピュータ
+  - expected: コンピューター$1
+    pattern: /コンピュータ([^ー])/
 
   - expected: コントローラ
     pattern: コントローラー
