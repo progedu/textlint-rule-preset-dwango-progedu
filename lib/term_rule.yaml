@@ -493,8 +493,8 @@ rules:
   - expected: マネジメント
     pattern: マネージメント
 
-  - expected: メーカー
-    pattern: メーカ
+  - expected: メーカー$1
+    pattern: /メーカ([^ー])/
 
   - expected: メーリングリスト
     pattern: /\bML\b/
