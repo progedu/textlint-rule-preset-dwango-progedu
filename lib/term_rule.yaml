@@ -1450,8 +1450,9 @@ rules:
 #    pattern: /%([^0123456789])/
 
   # カタカナの後ろの中黒「・」をトルツメ。★ア・★
-  - expected: $1
-    pattern: /([ァ-ヶ])・/
+#  情報用語で頻繁に使われるため除去
+#  - expected: $1
+#    pattern: /([ァ-ヶ])・/
 
   - expected: …
     pattern: /・・・|･･･/
