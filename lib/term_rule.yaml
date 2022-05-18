@@ -676,8 +676,9 @@ rules:
   - expected: DBFlute
     pattern: /\bDBFlute\b/i
 
-  - expected: Debian GNU/Linux
-    pattern: /\bDebian\b|Debian\/GNU Linux/
+# 挙動がおかしいので除去
+#  - expected: Debian GNU/Linux
+#    pattern: /\bDebian\b|Debian\/GNU Linux/
 
   # ☆dena.jp☆
   - expected: $1DeNA$2
