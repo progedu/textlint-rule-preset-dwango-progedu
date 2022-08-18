@@ -4,10 +4,10 @@
 version: 1
 rules:
   - expected: ジェスチャー
-    pattern: /ジェスチャ/
+    pattern: /ジェスチャ(?!ー)/
 
   - expected: ポインター
-    pattern: /ポインタ/
+    pattern: /ポインタ(?!ー)/
 
   - expected: 無名関数
     pattern: /匿名関数|ラムダ式/
