@@ -284,8 +284,8 @@ rules:
   - expected: データ同期
     pattern: /\bData Sync\b/
 
-  - expected: チェイン
-    pattern: チェーン
+  - expected: チェーン
+    pattern: チェイン
 
 # コードの中に登場するので
 #  - expected: ディスク
