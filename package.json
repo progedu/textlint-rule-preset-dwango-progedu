@@ -1,6 +1,6 @@
 {
   "name": "textlint-rule-preset-dwango-progedu",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "ドワンゴN予備校向けプログラミング教育テキスト群において用いているtextlintの標準設定",
   "main": "lib/textlint-rule-preset-dwango-progedu.js",
   "scripts": {
