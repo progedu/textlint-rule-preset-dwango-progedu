@@ -6,8 +6,9 @@ rules:
   - expected: ジェスチャー
     pattern: /ジェスチャ(?!ー)/
 
-  - expected: ポインター
-    pattern: /ポインタ(?!ー)/
+# 既存ルールと矛盾するため削除
+#  - expected: ポインター
+#    pattern: /ポインタ(?!ー)/
 
   - expected: 無名関数
     pattern: /匿名関数|ラムダ式/
