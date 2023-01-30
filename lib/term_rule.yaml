@@ -3,6 +3,10 @@
 # 一部、組版向けの記法は取り除いてる
 version: 1
 rules:
+
+  - expected: N予備校
+    pattern: /N 予備校/
+
   - expected: ジェスチャー
     pattern: /ジェスチャ(?!ー)/
 
