@@ -1737,10 +1737,10 @@ rules:
     pattern: VSCode
 
   - expected: 1 つ
-    pattern: /ひとつ|1つ|１つ/
+    pattern: /1つ|１つ/
 
   - expected: 2 つ
-    pattern: /ふたつ|2つ|２つ/
+    pattern: /2つ|２つ/
 
   - expected: Slack
     pattern: slack
