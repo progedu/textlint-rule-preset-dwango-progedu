@@ -1759,3 +1759,7 @@ rules:
 
   - expected: Apple Silicon
     pattern: Apple Silicon (M1)
+
+  # テキストや画面上での見えやすさを重視
+  - expected: 改ざん
+    pattern: 改竄
