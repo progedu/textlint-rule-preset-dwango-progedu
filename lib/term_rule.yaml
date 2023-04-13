@@ -1054,9 +1054,6 @@ rules:
 #  - expected: Python
 #    pattern: /\bPython\b/i
 
-  - expected: RADIUS
-    pattern: /\bRADIUS\b/i
-
   # ★Rails3★
   - expected: Rails $1
     pattern: /Rails([0-9])/
