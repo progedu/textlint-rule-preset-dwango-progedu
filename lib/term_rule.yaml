@@ -27,7 +27,7 @@ rules:
     pattern: /ミュータブル/
 
   - expected: Cookie
-    pattern: /クッキー|\bCOOKIE\b
+    pattern: /クッキー|\bCOOKIE\b/
 
   - expected: WebSocket
     pattern: /\bWeb Socket\b/
