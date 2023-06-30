@@ -109,8 +109,9 @@ rules:
 #  - expected: ウィジェット
 #    pattern: /\bWidget\b|\bwidget\b/
 
-  - expected: ウィルス
-    pattern: ウイルス
+# ウイルスのほうが世に浸透しているので
+#  - expected: ウィルス
+#    pattern: ウイルス
 
   - expected: ウィンドウ
     pattern: ウインドウ
@@ -745,8 +746,11 @@ rules:
   - expected: Firefox
     pattern: /\bFireFox\b|\bFire Fox\b|ファイアーフォックス|ファイヤーフォックス/
 
-  - expected: Flash
-    pattern: フラッシュ
+# Flash Playerは死んでいるが、過去の歴史を振り返る教材には必要かもと思い、それ自体は残す
+# しかしながら、フラッシュをFlashと呼ぶ文化は確実に死んでいるし、フラッシュメモリなどの
+# 単語を汚染するだけなので、コメントアウトする
+#  - expected: Flash
+#    pattern: フラッシュ
 
   - expected: Flash Lite
     pattern: /\bFlashLite\b/
