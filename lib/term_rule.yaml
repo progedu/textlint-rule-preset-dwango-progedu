@@ -964,8 +964,9 @@ rules:
   - expected: Migemo
     pattern: /\bMigemo\b/i
 
-  - expected: mixi
-    pattern: /\bmixi\b/i
+# mixiが株式会社MIXIとなったため、新旧表記できるようにコメントアウト
+#   - expected: mixi
+#     pattern: /\bmixi\b/i
 
   - expected: MongoDB
     pattern: /\bMongo DB\b/
