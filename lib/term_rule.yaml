@@ -657,6 +657,12 @@ rules:
   - expected: ASP.NET
     pattern: /ASP \.NET/
 
+  - expected: Apple
+    pattern: /\bApple\b/i
+
+  - expected: Apple
+    pattern: アップル
+
   - expected: Bean
     pattern: ビーン
 
@@ -839,6 +845,9 @@ rules:
 
   - expected: iPad
     pattern: /\biPad\b/i
+
+  - expected: iPadOS
+    pattern: /\biPad OS\b/i
 
   - expected: iPhone
     pattern: /\biPhone\b/i
@@ -1285,7 +1294,7 @@ rules:
     pattern: /\bWindowsXP\b/
 
   - expected: $1Word
-    pattern: /([^ースォ])ワード/
+    pattern: /([^ースォ索外う])ワード/
 
   - expected: xAuth
     pattern: /\bxAuth\b/i
