@@ -1736,7 +1736,7 @@ rules:
     pattern: /ネスティング|ネスト/
 
   - expected: VS Code
-    pattern: VSCode
+    pattern: /VSCode/i
 
   - expected: 1 つ
     pattern: /1つ|１つ/
