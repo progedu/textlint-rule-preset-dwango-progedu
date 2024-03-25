@@ -1774,3 +1774,6 @@ rules:
   # テキストや画面上での見えやすさを重視
   - expected: 改ざん
     pattern: 改竄
+
+  - expected: ダイアログ
+    pattern: ダイヤログ
