@@ -1777,3 +1777,7 @@ rules:
 
   - expected: ダイアログ
     pattern: ダイヤログ
+
+  # 問題集mdでのバグ防止のため
+  - expected: 小問fill_in
+    pattern: /小問 fill_in/
