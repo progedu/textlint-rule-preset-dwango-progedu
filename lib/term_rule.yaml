@@ -945,8 +945,8 @@ rules:
   - expected: LL
     pattern: LL言語
 
-  - expected: Mac OS
-    pattern: /\bMacOS\b/
+  - expected: macOS
+    pattern: /Mac OS(?! X)/i
 
   - expected: Mac OS X
     pattern: /\bMacOSX\b/
