@@ -1747,12 +1747,6 @@ rules:
   - expected: VS Code
     pattern: /VSCode/i
 
-  - expected: 1 つ
-    pattern: /1つ|１つ/
-
-  - expected: 2 つ
-    pattern: /2つ|２つ/
-
   - expected: Slack
     pattern: slack
 
